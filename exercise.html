@@ -1,42 +1,137 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Template</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<html lang="en">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<head>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3">
-          Aerobic Exercise
-          <br><br>
-          Aerobic exercises such as running, biking, swimming increase your breathing and heart rate. The more you do these the more stamina you will gain.
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+  <link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <br>
+
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="index.html">
+                        Home
+                    </a>
+        </li>
+
+        <li>
+          <a href="info.html">About Us</a>
+        </li>
+        <li>
+          <a href="exercise.html">Exercises to stay healthy</a>
+        </li>
+        <li>
+          <a href="food.html">Foods to eat to stay healthy</a>
+        </li>
+        <li>
+          <a href="tips.html">Habits to stay healthy</a>
+        </li>
+        <li>
+          <a href="statistics.html">Health Statistics in America</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Us</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
+      <div class="container-fluid">
+
+        <h1>How to be Healthy</h1>
+        <p>Welcome! This is our website on information on how to stay healthy and exercise.</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              Aerobic Exercise
+              <br><br> Aerobic exercises such as running, biking, swimming increase your breathing and heart rate. The more you do these the more stamina you will gain.
+            </div>
+            <div class="col-sm-3">
+              Strength Exercise
+              <br><br> Strength exercises such as lifting weights will increase muscle strength and make you stronger. They will also make muscles bigger and bigger.
+            </div>
+            <div class="col-sm-3">
+              Flexibility Excercise
+              <br><br> Flexibility excercises such as stretching and yoga will make you more flexible and increase your range of motion.
+            </div>
+            <div class="col-sm-3">
+              Balance Exercise
+              <br><br> Balance exercises such as standing on one foot will increase your overall balance.
+            </div>
+          </div>
         </div>
-        <div class="col-sm-3">
-          Strength Exercise
-          <br><br>
-          Strength exercises such as lifting weights will increase muscle strength and make you stronger. They will also make muscles bigger and bigger.
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              Aerobic Exercise
+              <br><br> Aerobic exercises such as running, biking, swimming increase your breathing and heart rate. The more you do these the more stamina you will gain.
+            </div>
+            <div class="col-sm-3">
+              Strength Exercise
+              <br><br> Strength exercises such as lifting weights will increase muscle strength and make you stronger. They will also make muscles bigger and bigger.
+            </div>
+            <div class="col-sm-3">
+              Flexibility Excercise
+              <br><br> Flexibility excercises such as stretching and yoga will make you more flexible and increase your range of motion.
+            </div>
+            <div class="col-sm-3">
+              Balance Exercise
+              <br><br> Balance exercises such as standing on one foot will increase your overall balance.
+            </div>
+          </div>
         </div>
-        <div class="col-sm-3">
-          Flexibility Excercise
-          <br><br>
-          Flexibility excercises such as stretching and yoga will make you more flexible and increase your range of motion.
-        </div>
-        <div class="col-sm-3">
-          Balance Exercise
-          <br><br>
-          Balance exercises such as standing on one foot will increase your overall balance.
-        </div>
+
+
+
+
+
       </div>
     </div>
-  </body>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
 </html>
