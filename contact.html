@@ -9,10 +9,12 @@
     <meta name="author" content="">
 
     <title>Simple Sidebar - Start Bootstrap Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
@@ -20,19 +22,22 @@
 </head>
 
 <body>
+    
+    <br>
+
 
     <div id="wrapper">
-        <br>
-         <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
+
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
+                    <a href="index.html">
+                        Home
                     </a>
                 </li>
+
                 <li>
                     <a href="info.html">About Us</a>
                 </li>
@@ -51,18 +56,26 @@
                 <li>
                     <a href="contact.html">Contact Us</a>
                 </li>
-                
+
             </ul>
         </div>
+
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
             <div class="container-fluid">
-                <h1></h1>
-                <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                <br>
+
+                <h1>Contact Information</h1>
+                <p>You can contact us by emailing us at healthyexerciseinfo@gmail.com </p>
+                <p>You can call us for information or where you can start!</p>
                 
+
+
+
+
             </div>
         </div>
         <!-- /#page-content-wrapper -->
@@ -76,10 +89,10 @@
 
     <!-- Menu Toggle Script -->
     <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
     </script>
 
 </body>
